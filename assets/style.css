@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Baloo Tamma 2', cursive;
     scroll-behavior: smooth;
     border: none;
     outline: none;
@@ -99,7 +99,7 @@ html {
 }
 
 #body-section .introduction .intro-desc {
-    padding: 16px 450px;
+    padding: 0 450px 16px 450px;
     margin-bottom: 16px;
 }
 
@@ -142,7 +142,7 @@ container và items */
 
 #body-section .desc .get-cookie {
     margin-top: 16px;
-    padding: 16px;
+    padding: 12px;
     display: inline-block;
     transition: 0.5s;
     background-color: rgb(250, 119, 32);
@@ -160,7 +160,7 @@ container và items */
 }
 
 #footer {
-    height: 170px;
+    height: 200px;
     text-align: center;
     font-size: 20px;
     background: skyblue;
@@ -198,7 +198,7 @@ container và items */
     background-color: rgba(0, 0, 255, 0.774);
 }
 
-/* setting.html */
+/* các trang thanh header */
 #format-content .step {
     margin: 32px;
 }
@@ -206,4 +206,46 @@ container và items */
 #format-content .step p {
     padding: 8px 0;
     font-size: 17px;
+}
+
+/*  */
+@media screen and (max-width: 63.9375em) and (min-width: 46.25em) {
+    .tutorial__extension,
+    .tutorial__get-cookie,
+    .tutorial__import-cookie {
+        padding: 0 20px;
+        width: 236px;
+        font-size: 25px;
+    }
+
+    #body-section .introduction .intro-desc {
+        padding: 0 60px 16px 60px;
+    }
+
+    .introduction .intro-desc p {
+        font-size: 27px;
+    }
+
+
+    #body-section .body {
+        display: inline-block;
+    }
+
+    #body-section .image,
+    #body-section .desc {
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        font-size: 25px;
+    }
+
+    #body-section .desc .get-cookie {
+        padding: 24px 64px;
+        font-size: 30px;
+    }
+
+    #footer .back-intro {
+        margin: auto;
+    }
 }

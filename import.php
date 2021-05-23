@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="/assets/style.css">
     <link rel="stylesheet" href="/assets/font/font-awesome/css/all.css">
     <link rel="icon" href="/assets/images/cookie.png" type="image/gif" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
     <title>COOKIE MAN</title>
 </head>
 <body>
