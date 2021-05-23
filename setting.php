@@ -68,7 +68,7 @@
 
     <!-- Nút home -->
     <div class="home-btn">
-        <a href="/index.html"><i class="fas fa-home"></i></a>
+        <a href="/index.php"><i class="fas fa-home"></i></a>
     </div>
     <!-- Nút home -->
 
