@@ -335,8 +335,7 @@ container và items */
     .tutorial__extension,
     .tutorial__get-cookie,
     .tutorial__import-cookie {
-        padding: 0 8px;
-        font-size: 15px;
-        margin: 0 4px;
+        padding: 0 4px;
+        font-size: 14px;
     }
 }
