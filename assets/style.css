@@ -339,3 +339,13 @@ container và items */
         font-size: 14px;
     }
 }
+
+/* Mobile (6s plus) */
+@media screen and (max-width: 20em) {
+    .tutorial__extension,
+    .tutorial__get-cookie,
+    .tutorial__import-cookie {
+        padding: 0 4px;
+        font-size: 12px;
+    }
+}
