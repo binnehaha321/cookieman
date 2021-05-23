@@ -209,7 +209,7 @@ container và items */
 }
 
 /* Tablet */
-@media only screen and (max-width: 63.9375em) and (min-width: 46.25em) {
+@media only screen and (max-width: 1023px) and (min-width: 740px) {
     .tutorial__extension,
     .tutorial__get-cookie,
     .tutorial__import-cookie {

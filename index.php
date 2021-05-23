@@ -12,10 +12,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
 </head>
 
-<style type="text/css">
-@media only screen and (max-width: 63.9375em) and (min-width: 46.25em) {}
-</style>
-
 <body>
     <header id="header">
         <a href="#">
