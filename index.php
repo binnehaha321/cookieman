@@ -78,7 +78,7 @@
         </section>
         <section class="body netflix" id="netflix">
             <div class="image">
-                <a href="">
+                <a href="https://fc.lc/wYpz">
                     <img src="/assets/images/netflix-container.png" alt="netflix" width="100%">
                 </a>
             </div>
@@ -91,7 +91,7 @@
 
         <section class="body spotify" id="spotify">
             <div class="image">
-                <a href="">
+                <a href="https://fc.lc/gxN5F">
                 <img src="/assets/images/spotify-container.png" alt="netflix" width="100%">
             </a>
             </div>
@@ -115,12 +115,6 @@
             </div>
         </section>
     </article>
-
-    <?php
-        require 'setting.php';
-        require 'get.php';
-        require 'import.php';
-    ?>
 
     <footer id="footer">
         <div class="social">

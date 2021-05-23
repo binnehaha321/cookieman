@@ -9,8 +9,62 @@
     <link rel="icon" href="/assets/images/cookie.png" type="image/gif" sizes="16x16">
     <title>COOKIE MAN</title>
 </head>
+<body>
+<header id="header">
+        <a href="#">
+            <div class="logo">
+                <img src="/assets/images/cookie.png" alt="logo" width="60">
+            </div>
+        </a>
+
+        <div class="tutorial">
+            <a href="#">
+                <div class="tutorial__extension">Cài extension
+                    <i class="fas fa-cog"></i>
+                </div>
+            </a>
+
+            <a href="/get.php">
+                <div class="tutorial__get-cookie">Lấy cookie
+                    <i class="fas fa-plus-circle"></i>
+                </div>
+            </a>
+
+            <a href="/import.php">
+                <div class="tutorial__import-cookie">Nhập cookie
+                    <i class="fas fa-file-import"></i>
+                </div>
+            </a>
+        </div>
+    </header>
+    
+    <nav id="nav">
+        <div class="nav__netflix">
+            <a href="/index.php#netflix">
+                <img src="/assets/images/netflix.png" alt="netflix" width="120">
+            </a>
+        </div>
+
+        <div class="nav__spotify">
+            <a href="/index.php#spotify">
+                <img src="/assets/images/spotify.png" alt="spotify" width="120">
+            </a>
+        </div>
+
+        <div class="nav__grammarly">
+            <a href="/index.php#grammarly">
+                <img src="/assets/images/grammarly.png" alt="grammarly" width="120">
+            </a>
+        </div>
+
+        <div class="nav__udemy-free">
+            <a href="">
+                <img src="/assets/images/udemy.png" alt="udemy" width="120">
+            </a>
+        </div>
+    </nav>
+
     <body id="format-content">
-    <h1>LẤY COOKIE</h1>
             <h2 style="color: red; margin: 16px 0 0 32px;"><i>Lưu ý: Tắt "ADBLOCK" trước khi thao tác theo hướng dẫn.</i></h2>
 
         <div class="step one">
@@ -70,4 +124,22 @@
 
         <h2 style="color: red; margin: 0 0 16px 32px;"><i>Lưu ý: Hãy ghi nhớ thư mục mà file sẽ lưu về.</i></h2>
     </body>
+
+    <footer id="footer">
+        <div class="social">
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-telegram-plane"></i></a>
+            <a href=""><i class="fab fa-discord"></i></a>
+        </div>
+
+        <div class="copyright" style="letter-spacing: 0.5px;">Powered &copy by Cookie Man</div>
+
+        <a href="#">
+            <div class="back-intro">
+                ĐẦU TRANG
+                <i class="fas fa-chevron-up"></i>
+            </div>
+        </a>
+    </footer>
+</body>
 </html>
