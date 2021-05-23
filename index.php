@@ -10,6 +10,13 @@
     <title>COOKIE MAN</title>
 </head>
 <body>
+
+    <?php
+        require 'setting.php';
+        require 'get.php';
+        require 'import.php';
+    ?>
+
     <header id="header">
         <a href="/index.html">
             <div class="logo">
