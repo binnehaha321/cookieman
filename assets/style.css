@@ -273,7 +273,7 @@ container và items */
     .tutorial__extension,
     .tutorial__get-cookie,
     .tutorial__import-cookie {
-        padding: 4px 12px;
+        padding: 0 12px;
         width: 100%;
         font-size: 16px;
         margin: 0 8px;
@@ -328,5 +328,15 @@ container và items */
     #body-section .body {
         padding-top: 0;
     }
+}
 
+/* Mobile smaller */
+@media screen and (max-width: 26.6875em) {
+    .tutorial__extension,
+    .tutorial__get-cookie,
+    .tutorial__import-cookie {
+        padding: 0 8px;
+        font-size: 15px;
+        margin: 0 4px;
+    }
 }
