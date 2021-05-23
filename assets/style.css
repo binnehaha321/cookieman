@@ -208,7 +208,7 @@ container và items */
     font-size: 17px;
 }
 
-/*  */
+/* Tablet */
 @media screen and (max-width: 63.9375em) and (min-width: 46.25em) {
     .tutorial__extension,
     .tutorial__get-cookie,
