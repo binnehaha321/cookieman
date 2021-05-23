@@ -10,34 +10,27 @@
     <title>COOKIE MAN</title>
 </head>
 <body>
-
-    <?php
-        require 'setting.php';
-        require 'get.php';
-        require 'import.php';
-    ?>
-
     <header id="header">
-        <a href="/index.html">
+        <a href="#">
             <div class="logo">
                 <img src="/assets/images/cookie.png" alt="logo" width="60">
             </div>
         </a>
 
         <div class="tutorial">
-            <a href="setting.html">
+            <a href="setting.php">
                 <div class="tutorial__extension">Cài extension
                     <i class="fas fa-cog"></i>
                 </div>
             </a>
 
-            <a href="/get.html">
+            <a href="/get.php">
                 <div class="tutorial__get-cookie">Lấy cookie
                     <i class="fas fa-plus-circle"></i>
                 </div>
             </a>
 
-            <a href="/import.html">
+            <a href="/import.php">
                 <div class="tutorial__import-cookie">Nhập cookie
                     <i class="fas fa-file-import"></i>
                 </div>
@@ -122,6 +115,12 @@
             </div>
         </section>
     </article>
+
+    <?php
+        require 'setting.php';
+        require 'get.php';
+        require 'import.php';
+    ?>
 
     <footer id="footer">
         <div class="social">
