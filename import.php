@@ -11,14 +11,14 @@
 </head>
 <body>
 <header id="header">
-        <a href="#">
+        <a href="/index.php">
             <div class="logo">
                 <img src="/assets/images/cookie.png" alt="logo" width="60">
             </div>
         </a>
 
         <div class="tutorial">
-            <a href="#">
+            <a href="/setting.php">
                 <div class="tutorial__extension">Cài extension
                     <i class="fas fa-cog"></i>
                 </div>
@@ -30,7 +30,7 @@
                 </div>
             </a>
 
-            <a href="/import.php">
+            <a href="#">
                 <div class="tutorial__import-cookie">Nhập cookie
                     <i class="fas fa-file-import"></i>
                 </div>

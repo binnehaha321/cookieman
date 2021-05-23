@@ -11,20 +11,20 @@
 </head>
 <body>
 <header id="header">
-        <a href="#">
+        <a href="/index.php">
             <div class="logo">
                 <img src="/assets/images/cookie.png" alt="logo" width="60">
             </div>
         </a>
 
         <div class="tutorial">
-            <a href="#">
+            <a href="/setting.php">
                 <div class="tutorial__extension">Cài extension
                     <i class="fas fa-cog"></i>
                 </div>
             </a>
 
-            <a href="/get.php">
+            <a href="#">
                 <div class="tutorial__get-cookie">Lấy cookie
                     <i class="fas fa-plus-circle"></i>
                 </div>

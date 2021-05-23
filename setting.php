@@ -11,7 +11,7 @@
 </head>
 <body>
 <header id="header">
-        <a href="#">
+        <a href="/index.php">
             <div class="logo">
                 <img src="/assets/images/cookie.png" alt="logo" width="60">
             </div>
