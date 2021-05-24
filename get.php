@@ -67,9 +67,11 @@
     </nav>
 
     <!-- Nút home -->
-    <div class="home-btn">
-        <a href="/index.php"><i class="fas fa-home"></i></a>
-    </div>
+    <a href="#">
+        <div class="home-btn">
+            <i class="fas fa-home"></i>
+        </div>
+    </a>
     <!-- Nút home -->
 
     <body id="format-content">
